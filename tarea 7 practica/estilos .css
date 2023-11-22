@@ -1,0 +1,82 @@
+/*no sabia que cosa poner de fondo*/
+
+html{
+    background-image: url(https://i.kym-cdn.com/entries/icons/facebook/000/042/079/chopcrycover.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    font-family: Georgia, Cambria, serif;
+    padding: 18px;
+}
+
+h1{
+    text-decoration: underline;
+    border: 2px solid red;
+    padding: 10px;
+    display: inline-block;
+    text-shadow: 10px, 10px, 4px black;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    padding: 20px;
+    text-shadow: 4px rgba,green;
+    text-decoration: underline;
+}
+
+img{
+    padding: 8px;
+    background-color: black;
+    width: 200px;
+    border: 1px solid gray;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.parrafo1{
+    font-style: unset;
+    padding: 15px;
+    background-size: contain;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: orange;
+    background: rgba(rgb(171, 206, 16), rgb(191, 253, 22), rgb(177, 212, 17), 70px); 
+    line-height: 1.5%; 
+}
+
+.parrafo2{
+    padding: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: gold;
+}
+
+.links{
+    text-align: center;
+}
+
+nav li{
+    margin-right: 15px;
+    background-color: blueviolet;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid brown;
+}
+
+/*no se si paresca raro pero si pregunta porque esta -.centro- y -article- si pueden estar juntas es que no
+encontre manera de que se ponga en el centro en link*/
+
+.centro{
+    background-color: aqua;
+    border: 5px solid blue;
+    display: inline-block;
+}
+
+article{
+    text-align: center;
+}
